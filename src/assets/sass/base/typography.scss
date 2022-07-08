@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif Book';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif Condensed Book';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif Narrow';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif Narrow Book';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif Narrow';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sans-serif Narrow';
+  src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+      url('../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*------------------*
+# Headings
+*------------------*/
+
+/*
+ * Uniform spacing and color for headings
+*/
+
+html, body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+h1, h2, h3, h4, h5, h6, button{
+  font-family: $base-font-family;
+}
+
+p{
+  font-family: $content-font-family;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 25px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+ul, ol, span, address{
+  font-family: $content-font-family;
+  font-weight: normal;
+}
+
+
+

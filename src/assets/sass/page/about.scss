@@ -1,0 +1,142 @@
+.banner_img{
+
+    img{
+        max-width: 100%;
+        width: 100%;
+        // position: absolute;
+        top: 0;
+        z-index: -1;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+.hero-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+        h1{
+            color: #fff;
+            font-size: 40px;
+            line-height: 53px;
+            font-family:'Essonnes'; 
+            font-weight: 500;
+            position: relative;
+            z-index: -1;
+            &::after{
+                position: absolute;
+                display: inline-block;
+                width: 120px;
+                height: 1px;
+                bottom: -12px;
+                left: 50%;
+                transform: translateX(-50%);
+                content: '';
+                background-color: #A9986A;
+            }
+        }
+}
+.description{
+    padding: 120px 0px;
+    h2{
+        color: #756A4B;
+        font-size: 40px;
+        line-height: 53px;
+        font-family: 'Essonnes';
+        font-weight: 500;
+        position: relative;
+        &::after{
+            position: absolute;
+            display: inline-block;
+            width: 120px;
+            height: 1px;
+            bottom: -12px;
+            left: 14%;
+            transform: translateX(-50%);
+            content: '';
+            background-color: #A9986A;
+        }
+    }
+    .v_description{
+        p{
+            margin-bottom: 28px;
+            font-size: 16px;
+            font-family: 'poppins';
+            color: #414240;
+            line-height: 28px;
+        }
+    }
+}
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    .description{
+        padding: 31px 0px;
+        h2{
+           width: 100%;
+            &::after{
+                position: absolute;
+                display: inline-block;
+                width: 120px;
+                height: 1px;
+                bottom: -12px;
+                left: 14%;
+                transform: translateX(-50%);
+                content: '';
+                background-color: #A9986A;
+            }
+        }
+        .v_description{
+            p{
+               padding-top: 40px;
+            }
+        }
+    }
+}
+
+
+
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+        .description{
+            padding: 120px 0px;
+            h2{
+              width: 100%;
+              position: relative;
+              &::after{
+                position: absolute;
+                display: inline-block;
+                width: 120px;
+                height: 1px;
+                bottom: -12px;
+                left: 9%;
+                transform: translateX(-39%);
+                content: '';
+                background-color: #A9986A;
+            }
+            }
+            
+            .v_description{
+                padding-top: 20px;
+                p{
+                    margin-bottom: 28px;
+                    font-size: 16px;
+                    font-family: poppins,'sans-serif';
+                    color: #414240;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+     
+

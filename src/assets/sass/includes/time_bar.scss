@@ -1,0 +1,28 @@
+.time-bar{
+    padding: 30px 0px;
+    .v_items{
+        ul{
+            display: flex;
+            .status{
+                padding: 0px 10px;
+                color: #6D6E6C;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .divaider{
+               position: relative;
+               padding: 0px 10px;
+               &::after{
+                position: absolute;
+                content: '';
+                width: 12px;
+                height: 1px;
+                background-color: #a9986a;
+                top: 10px;
+               }
+            }
+        }
+    }
+}
