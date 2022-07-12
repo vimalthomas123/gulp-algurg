@@ -53,6 +53,94 @@
                     text-align: center;
                 }
             }
+            .button_v{
+                a{
+                    :hover{
+                        color:#84754E;
+                    }
+                    button{
+                        background-color: #84754E;
+                        color: #fff;
+                        border: none;
+                        width: 200px;
+                        height: 47px;
+                        font-weight: 500;
+                        border-radius: 3px;
+                        margin: 45px auto 0px;
+                        transition: all .5s ease-in-out;
+                        
+                    &:hover{
+                        background: none;
+                        // border-radius: 5px solid #84754E;
+                        border: 1px solid #84754E ;
+                        transition: all .5s ease-in-out;
+                    }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+     //mobile***********
+     @media only screen and (max-width: 480px) {
+        .banner{
+            .img{
+                img{
+                    height: 75vh;
+                }
+            }
+            .inner-text{
+                .vi_align{
+                    .since{
+                        h4{
+                            // margin-top: 50px;
+                        }
+                        h2{
+                            font-size: 25px;
+                        }
+                    }
+                }
+                .v_align{
+                    // padding-top: 60px;
+                }
+            }
+           
+        }
+    }
+
+@media only screen and (max-width: 991px) {
+    header{
+       
+        .menu{
+            ul{
+                display: none;
+                li{
+                    padding: 0px 12px;
+                }
+            }
+           
+        }
+    }
+}
+
+    //laptop******
+@media only screen and (max-width: 768px) {
+    header{
+        .logo{
+            width: 100px;
+            margin-left: 20px;
+            margin: 0;
+            img{
+                width: 100%;
+            }
+      
         }
     }
 }
