@@ -7,140 +7,73 @@
             object-fit: cover;
         }
     }
-    .inner-text{
+    .outerdiv{
         position: absolute;
         top: 0%;
-        height: 100vh;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        .vi_align{
+        left: 0%;
+        right: 0%;
+        .container{
+            padding: 60px 0px;
+            position: absolute;
+            top: 50px;
+            left: 0%;
+            right: 0%;
             display: flex;
             align-items: center;
             justify-content: center;
-            .since{
-                h4{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    color:#fff;
-                    text-transform: uppercase;
-                    padding-bottom: 15px;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+            .topdiv{
+                h5{
+                    text-align: center;
                     font-size: 14px;
-                    font-weight: 500;
-                    letter-spacing: 2px;
+                    color: #fff;
                 }
                 h2{
+                    margin-top:15px;
                     color: #fff;
-                    text-transform: uppercase;
                     font-size: 40px;
-                    font-family: 'Essonnes';
+                    font-family:'Essonnes';
                     font-weight: 500;
                 }
             }
-        }
-        .v_align{
-            display: flex;
-            align-items: center;
-            justify-content: end;
-            flex-direction: column;
-            .bottaom-text{
+            .bottomdiv{
+                text-align: center;
                 p{
                     color: #fff;
-                    font-size: 14px;
-                    font-weight: 400;
-                    font-family: 'poppins';
+                    width: 70%;
                     text-align: center;
+                    margin: auto;
+                    font-size: 16px;
+                    line-height: 28px;
+                    margin-bottom: 45px;
                 }
-            }
-            .button_v{
-                a{
-                    :hover{
-                        color:#84754E;
-                    }
-                    button{
-                        background-color: #84754E;
-                        color: #fff;
-                        border: none;
-                        width: 200px;
-                        height: 47px;
-                        font-weight: 500;
-                        border-radius: 3px;
-                        margin: 45px auto 0px;
-                        transition: all .5s ease-in-out;
-                        
-                    &:hover{
-                        background: none;
-                        // border-radius: 5px solid #84754E;
-                        border: 1px solid #84754E ;
-                        transition: all .5s ease-in-out;
-                    }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-
-
-
-
-     //mobile***********
-     @media only screen and (max-width: 480px) {
-        .banner{
-            .img{
-                img{
-                    height: 75vh;
-                }
-            }
-            .inner-text{
-                .vi_align{
-                    .since{
-                        h4{
-                            // margin-top: 50px;
+                .but{
+                    a{
+                        :hover{
+                            color:#84754E;
                         }
-                        h2{
-                            font-size: 25px;
+                        button{
+                            background-color: #84754E;
+                            color: #fff;
+                            border: none;
+                            width: 200px;
+                            height: 47px;
+                            font-weight: 500;
+                            border-radius: 3px;
+                            transition: all .5s ease-in-out;
+                            
+                        &:hover{
+                            background: none;
+                            // border-radius: 5px solid #84754E;
+                            border: 1px solid #84754E ;
+                            transition: all .5s ease-in-out;
+                        }
                         }
                     }
                 }
-                .v_align{
-                    // padding-top: 60px;
-                }
             }
-           
-        }
-    }
-
-@media only screen and (max-width: 991px) {
-    header{
-       
-        .menu{
-            ul{
-                display: none;
-                li{
-                    padding: 0px 12px;
-                }
-            }
-           
-        }
-    }
-}
-
-    //laptop******
-@media only screen and (max-width: 768px) {
-    header{
-        .logo{
-            width: 100px;
-            margin-left: 20px;
-            margin: 0;
-            img{
-                width: 100%;
-            }
-      
         }
     }
 }

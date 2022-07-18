@@ -73,70 +73,45 @@
         }
     }
 }
-
-
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px)
-and (orientation: portrait) {
-    .description{
-        padding: 31px 0px;
-        h2{
-           width: 100%;
-            &::after{
-                position: absolute;
-                display: inline-block;
-                width: 120px;
-                height: 1px;
-                bottom: -12px;
-                left: 14%;
-                transform: translateX(-50%);
-                content: '';
-                background-color: #A9986A;
-            }
-        }
-        .v_description{
-            p{
-               padding-top: 40px;
-            }
-        }
+.description_v{
+    padding: 120px 0px;
+    .dis,p{
+        width: 770px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #414240;
+        line-height: 28px;
+        font-size: 16px;
+        font-family: 'poppins';
     }
-}
-
-
-
-    /* For Tablet View */
-    @media screen and (min-device-width: 768px)
-and (max-device-width: 1024px) {
-        .description{
-            padding: 120px 0px;
-            h2{
-              width: 100%;
-              position: relative;
-              &::after{
-                position: absolute;
-                display: inline-block;
-                width: 120px;
-                height: 1px;
-                bottom: -12px;
-                left: 9%;
-                transform: translateX(-39%);
-                content: '';
-                background-color: #A9986A;
+    .but{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a{
+            :hover{
+                color:#84754E;
             }
-            }
-            
-            .v_description{
-                padding-top: 20px;
-                p{
-                    margin-bottom: 28px;
-                    font-size: 16px;
-                    font-family: poppins,'sans-serif';
-                    color: #414240;
-                    line-height: 28px;
+            button{
+                background-color: #84754E;
+                color: #fff;
+                border: none;
+                width: max-content;
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 47px;
+                font-weight: 500;
+                border-radius: 3px;
+                transition: all .5s ease-in-out;
+                margin-top: 20px;
+                &:hover{
+                    background: none;
+                    // border-radius: 5px solid #84754E;
+                    border: 1px solid #84754E ;
+                    transition: all .5s ease-in-out;
                 }
             }
         }
     }
-
-     
+} 
 
