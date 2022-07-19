@@ -1,0 +1,71 @@
+.slider{
+    
+    .bg{
+        .container{
+            position: relative;
+            .topdiv{
+                h5{
+                    color: #A9986A;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Poppins';
+                    margin-bottom: 15px;
+                }
+                h2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 40px;
+                    font-family: 'Essonnes';
+                }
+            }
+            .swiper {
+                width: 100%;
+                height: 100%;
+                margin-top: 77px;
+            }
+        
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                height: 375px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+           
+        
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                background-repeat: no-repeat;
+                
+            }
+            
+            .swiper-button-next{
+                color: #84754E;
+                top: 65%;
+                right: -30px;
+            }
+            .swiper-button-prev{
+                color: #84754E;
+                top: 65%;
+                left: -30px;
+            }
+        }
+    }
+}
